@@ -10,9 +10,12 @@ internal class BinaryGapTest {
 
     @Tag("tdd driven test")
     @Test
-    internal fun `zero case`() {
-        assertEquals(0, underTest.solution(0))
-    }
+    internal fun `number 0 case`() { assertEquals(0, underTest.solution(0)) }
+
+
+    @Tag("tdd driven test")
+    @Test
+    internal fun `number 1  case`() { assertEquals(0, underTest.solution(1)) }
 
 
     @Tag("provided test")
